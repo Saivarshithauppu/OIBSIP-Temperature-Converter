@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Varshi's Temperature Converter<p>Easy way of conversion</p></h1>
+    
+    <div class="centered">
+        
+    <div class="styles">
+    <form id="tempCalc" onsubmit="calculatetemp(); return false">
+      <br />
+      <label for="temp">Enter your temperature</label>
+      <input type="number" nam="temp" id="temp" />
+      <br />
+      <br />
+      <select name="Temp_convert" id="temp_diff">
+        <option value="celcius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option></select
+      ><br />
+      <button type="submit">Submit</button><br />
+      <span id="result"></span>
+    </form>
+    </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
